@@ -5,11 +5,12 @@ export interface INameUrl {
     name: string;
     url: string;
 }
-  
+
 export interface IPokemon {
     id: number;
     name: string;
     height?: number;
+    weight?: number;
 }
 
 interface IIdName {
